@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const permissionSlice= createSlice({
     name:"permission",
     initialState:{
-        data:[]
+        data:{}
     },
     reducers:{
         setpermission:(state,action)=>{

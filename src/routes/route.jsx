@@ -1,4 +1,6 @@
 import LoginPage from "../components/LoginPage";
+import UserActivityDashboard from "../Pages/Dashboard";
+import StaffPage from "../Pages/Staffmanagement";
 import StaffManagementPage from "../Pages/Staffmanagement";
 
 export const routes=[
@@ -7,7 +9,7 @@ export const routes=[
         key:"dashboard",
         title:"Dashboard",
         layout:true,
-         Component:<LoginPage />
+         Component:<UserActivityDashboard />
     },
     {
         routeLink:"/staff",
